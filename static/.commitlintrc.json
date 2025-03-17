@@ -1,0 +1,30 @@
+{
+    "rules": {
+        "type-enum": [
+            2, 
+            "always", 
+            [
+                "build",
+                "chore",
+                "ci",
+                "docs",
+                "feat",
+                "fix",
+                "perf",
+                "refactor",
+                "revert",
+                "style",
+                "test"
+            ]
+        ],
+        "type-case": [2, "always", "lowerCase"],
+        "type-empty": [2, "never", null],
+        "scope-max-length": [2, "always", 25],
+        "subject-empty": [2, "never", null],
+        "header-max-length": [1, "always", 140],
+        "body-leading-blank": [2, "always", null],
+        "body-max-line-length": [1, "always", 140],
+        "footer-leading-blank": [2, "always", null],
+        "footer-max-line-length": [1, "always", 140]
+      }
+}
